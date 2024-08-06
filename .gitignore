@@ -1,2 +1,4 @@
 contracts/artifacts
 .states
+**/node_modules
+.env

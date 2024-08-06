@@ -1,0 +1,23 @@
+{
+  "name": "solidity-ej",
+  "version": "1.0.0",
+  "description": "<img src=\"https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.49.2",
+    "@openzeppelin/contracts": "^5.0.2",
+    "solc": "^0.8.26"
+  }
+}
