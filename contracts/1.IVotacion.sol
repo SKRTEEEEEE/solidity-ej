@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 
 interface IVotacion {
+    function registrarOpcion(string memory opcion) external ;
     function registrarVotante(address votante) external;
     function votar(uint256 opcion) external;
     function obtenerResultados()external view returns (uint256[]memory);
